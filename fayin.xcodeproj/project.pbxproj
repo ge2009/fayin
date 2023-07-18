@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D7E26F2A667A37007A51CD /* fayinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7E26E2A667A37007A51CD /* fayinApp.swift */; };
+		83D7E2712A667A37007A51CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7E2702A667A37007A51CD /* ContentView.swift */; };
+		83D7E2732A667A38007A51CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2722A667A38007A51CD /* Assets.xcassets */; };
+		83D7E2762A667A38007A51CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2752A667A38007A51CD /* Preview Assets.xcassets */; };
+		83D7E2842A667A86007A51CD /* Phonetic.json in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E27C2A667A86007A51CD /* Phonetic.json */; };
+		83D7E2852A667A86007A51CD /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E27D2A667A86007A51CD /* diamond.png */; };
+		83D7E2872A667A86007A51CD /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E27F2A667A86007A51CD /* triangle.png */; };
+		83D7E2882A667A86007A51CD /* short_i_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2802A667A86007A51CD /* short_i_sound.mp3 */; };
+		83D7E2892A667A86007A51CD /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2812A667A86007A51CD /* confetti.png */; };
+		83D7E28A2A667A86007A51CD /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2822A667A86007A51CD /* star.png */; };
+		83D7E2992A6689FD007A51CD /* u-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E28F2A6689FD007A51CD /* u-sound.mp3 */; };
+		83D7E29A2A6689FD007A51CD /* e^-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2902A6689FD007A51CD /* e^-sound.mp3 */; };
+		83D7E29B2A6689FD007A51CD /* an-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2912A6689FD007A51CD /* an-sound.mp3 */; };
+		83D7E29C2A6689FD007A51CD /* a-sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2922A6689FD007A51CD /* a-sound2.mp3 */; };
+		83D7E29D2A6689FD007A51CD /* ^-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2932A6689FD007A51CD /* ^-sound.mp3 */; };
+		83D7E29E2A6689FD007A51CD /* o-sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2942A6689FD007A51CD /* o-sound2.mp3 */; };
+		83D7E29F2A6689FD007A51CD /* er-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2952A6689FD007A51CD /* er-sound.mp3 */; };
+		83D7E2A02A6689FD007A51CD /* e-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2962A6689FD007A51CD /* e-sound.mp3 */; };
+		83D7E2A12A6689FD007A51CD /* o-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2972A6689FD007A51CD /* o-sound.mp3 */; };
+		83D7E2A22A6689FD007A51CD /* u-sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2982A6689FD007A51CD /* u-sound2.mp3 */; };
+		83D7E2A42A668C81007A51CD /* i-sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D7E2A32A668C81007A51CD /* i-sound2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83D7E26B2A667A37007A51CD /* fayin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fayin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D7E26E2A667A37007A51CD /* fayinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fayinApp.swift; sourceTree = "<group>"; };
+		83D7E2702A667A37007A51CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83D7E2722A667A38007A51CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83D7E2752A667A38007A51CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83D7E27C2A667A86007A51CD /* Phonetic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Phonetic.json; sourceTree = "<group>"; };
+		83D7E27D2A667A86007A51CD /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		83D7E27F2A667A86007A51CD /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		83D7E2802A667A86007A51CD /* short_i_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = short_i_sound.mp3; sourceTree = "<group>"; };
+		83D7E2812A667A86007A51CD /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		83D7E2822A667A86007A51CD /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		83D7E28F2A6689FD007A51CD /* u-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "u-sound.mp3"; sourceTree = "<group>"; };
+		83D7E2902A6689FD007A51CD /* e^-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "e^-sound.mp3"; sourceTree = "<group>"; };
+		83D7E2912A6689FD007A51CD /* an-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "an-sound.mp3"; sourceTree = "<group>"; };
+		83D7E2922A6689FD007A51CD /* a-sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "a-sound2.mp3"; sourceTree = "<group>"; };
+		83D7E2932A6689FD007A51CD /* ^-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "^-sound.mp3"; sourceTree = "<group>"; };
+		83D7E2942A6689FD007A51CD /* o-sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "o-sound2.mp3"; sourceTree = "<group>"; };
+		83D7E2952A6689FD007A51CD /* er-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "er-sound.mp3"; sourceTree = "<group>"; };
+		83D7E2962A6689FD007A51CD /* e-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "e-sound.mp3"; sourceTree = "<group>"; };
+		83D7E2972A6689FD007A51CD /* o-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "o-sound.mp3"; sourceTree = "<group>"; };
+		83D7E2982A6689FD007A51CD /* u-sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "u-sound2.mp3"; sourceTree = "<group>"; };
+		83D7E2A32A668C81007A51CD /* i-sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i-sound2.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D7E2682A667A37007A51CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D7E2622A667A37007A51CD = {
+			isa = PBXGroup;
+			children = (
+				83D7E26D2A667A37007A51CD /* fayin */,
+				83D7E26C2A667A37007A51CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D7E26C2A667A37007A51CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D7E26B2A667A37007A51CD /* fayin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D7E26D2A667A37007A51CD /* fayin */ = {
+			isa = PBXGroup;
+			children = (
+				83D7E2932A6689FD007A51CD /* ^-sound.mp3 */,
+				83D7E2922A6689FD007A51CD /* a-sound2.mp3 */,
+				83D7E2912A6689FD007A51CD /* an-sound.mp3 */,
+				83D7E2962A6689FD007A51CD /* e-sound.mp3 */,
+				83D7E2A32A668C81007A51CD /* i-sound2.mp3 */,
+				83D7E2902A6689FD007A51CD /* e^-sound.mp3 */,
+				83D7E2952A6689FD007A51CD /* er-sound.mp3 */,
+				83D7E2972A6689FD007A51CD /* o-sound.mp3 */,
+				83D7E2942A6689FD007A51CD /* o-sound2.mp3 */,
+				83D7E28F2A6689FD007A51CD /* u-sound.mp3 */,
+				83D7E2982A6689FD007A51CD /* u-sound2.mp3 */,
+				83D7E28E2A667DBD007A51CD /* SAConfettiView */,
+				83D7E27C2A667A86007A51CD /* Phonetic.json */,
+				83D7E2802A667A86007A51CD /* short_i_sound.mp3 */,
+				83D7E2822A667A86007A51CD /* star.png */,
+				83D7E27F2A667A86007A51CD /* triangle.png */,
+				83D7E26E2A667A37007A51CD /* fayinApp.swift */,
+				83D7E2702A667A37007A51CD /* ContentView.swift */,
+				83D7E2722A667A38007A51CD /* Assets.xcassets */,
+				83D7E2742A667A38007A51CD /* Preview Content */,
+			);
+			path = fayin;
+			sourceTree = "<group>";
+		};
+		83D7E2742A667A38007A51CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83D7E2752A667A38007A51CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83D7E28E2A667DBD007A51CD /* SAConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				83D7E2812A667A86007A51CD /* confetti.png */,
+				83D7E27D2A667A86007A51CD /* diamond.png */,
+			);
+			path = SAConfettiView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D7E26A2A667A37007A51CD /* fayin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D7E2792A667A38007A51CD /* Build configuration list for PBXNativeTarget "fayin" */;
+			buildPhases = (
+				83D7E2672A667A37007A51CD /* Sources */,
+				83D7E2682A667A37007A51CD /* Frameworks */,
+				83D7E2692A667A37007A51CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fayin;
+			productName = fayin;
+			productReference = 83D7E26B2A667A37007A51CD /* fayin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D7E2632A667A37007A51CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					83D7E26A2A667A37007A51CD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 83D7E2662A667A37007A51CD /* Build configuration list for PBXProject "fayin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D7E2622A667A37007A51CD;
+			productRefGroup = 83D7E26C2A667A37007A51CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D7E26A2A667A37007A51CD /* fayin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D7E2692A667A37007A51CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D7E29B2A6689FD007A51CD /* an-sound.mp3 in Resources */,
+				83D7E2992A6689FD007A51CD /* u-sound.mp3 in Resources */,
+				83D7E2A42A668C81007A51CD /* i-sound2.mp3 in Resources */,
+				83D7E2842A667A86007A51CD /* Phonetic.json in Resources */,
+				83D7E2892A667A86007A51CD /* confetti.png in Resources */,
+				83D7E2A02A6689FD007A51CD /* e-sound.mp3 in Resources */,
+				83D7E2872A667A86007A51CD /* triangle.png in Resources */,
+				83D7E2A12A6689FD007A51CD /* o-sound.mp3 in Resources */,
+				83D7E29E2A6689FD007A51CD /* o-sound2.mp3 in Resources */,
+				83D7E2762A667A38007A51CD /* Preview Assets.xcassets in Resources */,
+				83D7E2A22A6689FD007A51CD /* u-sound2.mp3 in Resources */,
+				83D7E2852A667A86007A51CD /* diamond.png in Resources */,
+				83D7E29C2A6689FD007A51CD /* a-sound2.mp3 in Resources */,
+				83D7E29F2A6689FD007A51CD /* er-sound.mp3 in Resources */,
+				83D7E28A2A667A86007A51CD /* star.png in Resources */,
+				83D7E29A2A6689FD007A51CD /* e^-sound.mp3 in Resources */,
+				83D7E29D2A6689FD007A51CD /* ^-sound.mp3 in Resources */,
+				83D7E2732A667A38007A51CD /* Assets.xcassets in Resources */,
+				83D7E2882A667A86007A51CD /* short_i_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D7E2672A667A37007A51CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D7E2712A667A37007A51CD /* ContentView.swift in Sources */,
+				83D7E26F2A667A37007A51CD /* fayinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83D7E2772A667A38007A51CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D7E2782A667A38007A51CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83D7E27A2A667A38007A51CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fayin/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R78H8GZHW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonAir.fayin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83D7E27B2A667A38007A51CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fayin/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R78H8GZHW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonAir.fayin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D7E2662A667A37007A51CD /* Build configuration list for PBXProject "fayin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D7E2772A667A38007A51CD /* Debug */,
+				83D7E2782A667A38007A51CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D7E2792A667A38007A51CD /* Build configuration list for PBXNativeTarget "fayin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D7E27A2A667A38007A51CD /* Debug */,
+				83D7E27B2A667A38007A51CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D7E2632A667A37007A51CD /* Project object */;
+}

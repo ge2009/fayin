@@ -1,0 +1,131 @@
+[
+    {
+        "phonetic": "/iː/",
+        "examples": ["bee /biː/ n. 蜜蜂", "we /wiː/ pron. 我们", "read /ri:d/ vt. 阅读","meat /miːt/ n. 肉","heat /hiːt/ n. 高温","seat /siːt/ n. 座位"],
+        "markedLetters": ["ee", "e", "ea","ea","ea","ea"],
+        "audioFilename": "i-sound2.mp3"
+    },
+    {
+        "phonetic": "/ɪ/",
+        "examples": ["sit /sɪt/ vi. 坐", "fish /fɪʃ/ n. 鱼", "king /kɪŋ/ n. 国王","win /wɪn/ vi. 赢","little /lɪtl/ adj. 很少的","hit /hɪt/ vt. 打击"],
+        "markedLetters": ["i", "i", "i","i","i","i"],
+        "audioFilename": "short_i_sound.mp3"
+    },
+    {
+        "phonetic": "/e/",
+        "examples": ["pen /pen/ n. 钢笔", "bend /bend/ n. 弯曲", "dress /dres/ n. 连衣裙","bed /bed/ n. 床","red /red/ n. 红色","egg /eg/ n. 蛋"],
+        "markedLetters": ["e", "e", "e","e","e","e"],
+        "audioFilename": "e-sound.mp3"
+    },
+    {
+        "phonetic": "/æ/",
+        "examples": ["lamb /læm/ n. 羔羊", "tan /tæn/ n.棕褐色", "ant /ænt/ n. 蚂蚁","pan /pæn/ n. 平底锅","band /bænd/ n. 带","mass /mæs/ n. 块"],
+        "markedLetters": ["a", "a", "a","a","a","a"],
+        "audioFilename": "an-sound.mp3"
+    },
+    {
+        "phonetic": "/ɜː/",
+        "examples": [
+            "bird /bɜːd/ n. 鸟",
+            "girl /gɜːl/ n. 女孩",
+            "work /wɜːk/ n. 工作",
+            "word /wɜːd/ n. [语] 单词",
+            "learn /lɜːrn/ vt. 学习",
+            "heard /hɜːrd/ v. 听到"
+        ],
+        "markedLetters": ["ir", "irl", "or", "or", "ear", "ear"],
+        "audioFilename": "er-sound.mp3"
+    },
+    {
+        "phonetic": "/ə/",
+        "examples": [
+            "woman /'wʊmən/ n. 妇女",
+            "sofa /'səʊfə/ n. 沙发",
+            "extra /'ekstrə/ adv. 特别地",
+            "panda /'pændə/ n. 熊猫",
+            "actor /'æktə/ n. 男演员",
+            "center /ˈsentə/ n. 中心"
+        ],
+        "markedLetters": ["a", "a", "a", "a", "o", "e"],
+        "audioFilename": "e^-sound.mp3"
+    },
+    {
+        "phonetic": "/ʌ/",
+        "examples": [
+            "run /rʌn/ vt. 奔跑",
+            "sun /sʌn/ n. 太阳",
+            "brush /brʌʃ/ n. 刷子",
+            "cup /kʌp/ n. 杯子",
+            "bus /bʌs/ n. 公共汽车",
+            "son /sʌn/ n. 儿子"
+        ],
+        "markedLetters": ["u", "u", "u", "u", "u", "o"],
+        "audioFilename": "^-sound.mp3"
+    },
+    {
+        "phonetic": "/uː/",
+        "examples": [
+            "tooth /tuːθ/ n. 牙齿",
+            "cool /kuːl/ adj. 凉爽的",
+            "rude /ruːd/ adj. 粗鲁的",
+            "truth /truːθ/ n. 真理",
+            "loose /luːs/ adj. 宽松的"
+        ],
+        "markedLetters": ["oo", "oo", "u", "u", "oo"],
+        "audioFilename": "u-sound2.mp3"
+    },
+    {
+        "phonetic": "/ʊ/",
+        "examples": [
+            "book /bʊk/ n. 书籍",
+            "bush /bʊʃ/ n. 矮树丛",
+            "good /gʊd/ adj. 好的",
+            "full /fʊl/ adj. 满的",
+            "pull /pʊl/ vt. 拉",
+            "sugar /'ʃʊgə/ n. 糖"
+        ],
+        "markedLetters": ["oo", "u", "oo", "u", "u", "u"],
+        "audioFilename": "u-sound.mp3"
+    },
+    {
+        "phonetic": "/ɔː/",
+        "examples": [
+            "walk /wɔːk/ n. 步行",
+            "call /kɔːl/ vi. 呼叫",
+            "flaw /flɔː/ n. 瑕疵",
+            "lawyer /'lɔːjə/ n. 律师",
+            "caught /kɔːt/ v. 捕捉",
+            "board /bɔːd/ n. 甲板"
+        ],
+        "markedLetters": ["al", "all", "aw", "aw", "augh", "oar"],
+        "audioFilename": "o-sound2.mp3"
+    },
+    {
+        "phonetic": "/ɒ/",
+        "examples": [
+            "dog /dɒg/ n. 狗",
+            "box /bɒks/ n. 箱",
+            "stop /stɒp/ vi. 停止",
+            "watch /wɒtʃ/ n. 手表",
+            "job /dʒɒb/ n. 工作",
+            "god /ɡɒd/ n. 神"
+        ],
+        "markedLetters": ["o", "o", "o", "a", "o", "o"],
+        "audioFilename": "o-sound.mp3"
+    },
+    {
+        "phonetic": "/ɑː/",
+        "examples": [
+            "bar /bɑː/ n. 条",
+            "mark /mɑːk/ n. 标志",
+            "father /'fɑːðə/ n. 父亲",
+            "target /'tɑːgɪt/ n. 目标",
+            "bark /bɑːk/ n. 树皮",
+            "shark /ʃɑːk/ n. 鲨鱼"
+        ],
+        "markedLetters": ["ar", "ar", "a", "ar", "ar", "ar"],
+        "audioFilename": "a-sound2.mp3"
+    },
+  
+    
+]
