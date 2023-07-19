@@ -1,26 +1,82 @@
 [
     {
         "phonetic": "/iː/",
-        "examples": ["bee /biː/ n. 蜜蜂", "we /wiː/ pron. 我们", "read /ri:d/ vt. 阅读","meat /miːt/ n. 肉","heat /hiːt/ n. 高温","seat /siːt/ n. 座位"],
-        "markedLetters": ["ee", "e", "ea","ea","ea","ea"],
+        "examples": [
+            "bee /biː/ n. 蜜蜂",
+            "we /wiː/ pron. 我们",
+            "read /ri:d/ vt. 阅读",
+            "meat /miːt/ n. 肉",
+            "heat /hiːt/ n. 高温",
+            "seat /siːt/ n. 座位"
+        ],
+        "markedLetters": [
+            "ee",
+            "e",
+            "ea",
+            "ea",
+            "ea",
+            "ea"
+        ],
         "audioFilename": "i-sound2.mp3"
     },
     {
         "phonetic": "/ɪ/",
-        "examples": ["sit /sɪt/ vi. 坐", "fish /fɪʃ/ n. 鱼", "king /kɪŋ/ n. 国王","win /wɪn/ vi. 赢","little /lɪtl/ adj. 很少的","hit /hɪt/ vt. 打击"],
-        "markedLetters": ["i", "i", "i","i","i","i"],
+        "examples": [
+            "sit /sɪt/ vi. 坐",
+            "fish /fɪʃ/ n. 鱼",
+            "king /kɪŋ/ n. 国王",
+            "win /wɪn/ vi. 赢",
+            "little /lɪtl/ adj. 很少的",
+            "hit /hɪt/ vt. 打击"
+        ],
+        "markedLetters": [
+            "i",
+            "i",
+            "i",
+            "i",
+            "i",
+            "i"
+        ],
         "audioFilename": "short_i_sound.mp3"
     },
     {
         "phonetic": "/e/",
-        "examples": ["pen /pen/ n. 钢笔", "bend /bend/ n. 弯曲", "dress /dres/ n. 连衣裙","bed /bed/ n. 床","red /red/ n. 红色","egg /eg/ n. 蛋"],
-        "markedLetters": ["e", "e", "e","e","e","e"],
+        "examples": [
+            "pen /pen/ n. 钢笔",
+            "bend /bend/ n. 弯曲",
+            "dress /dres/ n. 连衣裙",
+            "bed /bed/ n. 床",
+            "red /red/ n. 红色",
+            "egg /eg/ n. 蛋"
+        ],
+        "markedLetters": [
+            "e",
+            "e",
+            "e",
+            "e",
+            "e",
+            "e"
+        ],
         "audioFilename": "e-sound.mp3"
     },
     {
         "phonetic": "/æ/",
-        "examples": ["lamb /læm/ n. 羔羊", "tan /tæn/ n.棕褐色", "ant /ænt/ n. 蚂蚁","pan /pæn/ n. 平底锅","band /bænd/ n. 带","mass /mæs/ n. 块"],
-        "markedLetters": ["a", "a", "a","a","a","a"],
+        "examples": [
+            "lamb /læm/ n. 羔羊",
+            "tan /tæn/ n.棕褐色",
+            "ant /ænt/ n. 蚂蚁",
+            "pan /pæn/ n. 平底锅",
+            "band /bænd/ n. 带",
+            "mass /mæs/ n. 块"
+        ],
+        "markedLetters": [
+            "a",
+            "a",
+            "a",
+            "a",
+            "a",
+            "a"
+        ],
         "audioFilename": "an-sound.mp3"
     },
     {
@@ -33,7 +89,14 @@
             "learn /lɜːrn/ vt. 学习",
             "heard /hɜːrd/ v. 听到"
         ],
-        "markedLetters": ["ir", "irl", "or", "or", "ear", "ear"],
+        "markedLetters": [
+            "ir",
+            "irl",
+            "or",
+            "or",
+            "ear",
+            "ear"
+        ],
         "audioFilename": "er-sound.mp3"
     },
     {
@@ -46,7 +109,14 @@
             "actor /'æktə/ n. 男演员",
             "center /ˈsentə/ n. 中心"
         ],
-        "markedLetters": ["a", "a", "a", "a", "o", "e"],
+        "markedLetters": [
+            "a",
+            "a",
+            "a",
+            "a",
+            "o",
+            "e"
+        ],
         "audioFilename": "e^-sound.mp3"
     },
     {
@@ -59,7 +129,14 @@
             "bus /bʌs/ n. 公共汽车",
             "son /sʌn/ n. 儿子"
         ],
-        "markedLetters": ["u", "u", "u", "u", "u", "o"],
+        "markedLetters": [
+            "u",
+            "u",
+            "u",
+            "u",
+            "u",
+            "o"
+        ],
         "audioFilename": "^-sound.mp3"
     },
     {
@@ -71,7 +148,13 @@
             "truth /truːθ/ n. 真理",
             "loose /luːs/ adj. 宽松的"
         ],
-        "markedLetters": ["oo", "oo", "u", "u", "oo"],
+        "markedLetters": [
+            "oo",
+            "oo",
+            "u",
+            "u",
+            "oo"
+        ],
         "audioFilename": "u-sound2.mp3"
     },
     {
@@ -84,7 +167,14 @@
             "pull /pʊl/ vt. 拉",
             "sugar /'ʃʊgə/ n. 糖"
         ],
-        "markedLetters": ["oo", "u", "oo", "u", "u", "u"],
+        "markedLetters": [
+            "oo",
+            "u",
+            "oo",
+            "u",
+            "u",
+            "u"
+        ],
         "audioFilename": "u-sound.mp3"
     },
     {
@@ -97,7 +187,14 @@
             "caught /kɔːt/ v. 捕捉",
             "board /bɔːd/ n. 甲板"
         ],
-        "markedLetters": ["al", "all", "aw", "aw", "augh", "oar"],
+        "markedLetters": [
+            "al",
+            "all",
+            "aw",
+            "aw",
+            "augh",
+            "oar"
+        ],
         "audioFilename": "o-sound2.mp3"
     },
     {
@@ -110,7 +207,14 @@
             "job /dʒɒb/ n. 工作",
             "god /ɡɒd/ n. 神"
         ],
-        "markedLetters": ["o", "o", "o", "a", "o", "o"],
+        "markedLetters": [
+            "o",
+            "o",
+            "o",
+            "a",
+            "o",
+            "o"
+        ],
         "audioFilename": "o-sound.mp3"
     },
     {
@@ -123,9 +227,730 @@
             "bark /bɑːk/ n. 树皮",
             "shark /ʃɑːk/ n. 鲨鱼"
         ],
-        "markedLetters": ["ar", "ar", "a", "ar", "ar", "ar"],
+        "markedLetters": [
+            "ar",
+            "ar",
+            "a",
+            "ar",
+            "ar",
+            "ar"
+        ],
         "audioFilename": "a-sound2.mp3"
     },
-  
-    
+    {
+        "phonetic": "/eɪ/",
+        "examples": [
+            "wait /weɪt/ vt. 等候",
+            "late /leɪt/ adj. 晚的",
+            "hate /heɪt/ vt. 憎恨",
+            "waste /weɪst/ n. 浪费",
+            "shake /ʃeɪk/ vt. 动摇",
+            "snail /sneɪl/ n. 蜗牛"
+        ],
+        "markedLetters": [
+            "ai",
+            "ate",
+            "ate",
+            "ai",
+            "ake",
+            "ai"
+        ],
+        "audioFilename": "eɪ_sound.mp3"
+    },
+    {
+        "phonetic": "/aɪ/",
+        "examples": [
+            "write /raɪt/ vi. 写",
+            "fight /faɪt/ vi. 打架",
+            "why /waɪ/ adv. 为什么",
+            "my /maɪ/ pron. 我的",
+            "satisfy /'sætɪsfaɪ/ vt. 满足",
+            "lion /'laɪən/ n. 狮子"
+        ],
+        "markedLetters": [
+            "i",
+            "i",
+            "y",
+            "y",
+            "i",
+            "i"
+        ],
+        "audioFilename": "aɪ_sound.mp3"
+    },
+    {
+        "phonetic": "/ɔɪ/",
+        "examples": [
+            "oyster /'ɔɪstə/ n. 牡蛎",
+            "choice /tʃɔɪs/ n. 选择",
+            "annoy /ə'nɔɪ/ n. 烦恼",
+            "noise /nɔɪz/ n. 噪音",
+            "point /pɔɪnt/ n. 得分",
+            "oil /ɔɪl/ n. 油"
+        ],
+        "markedLetters": [
+            "oy",
+            "oi",
+            "oy",
+            "oi",
+            "oi",
+            "oi"
+        ],
+        "audioFilename": "ɔɪ_sound.mp3"
+    },
+    {
+        "phonetic": "/aʊ/",
+        "examples": [
+            "mouse /maʊs/ n. 鼠标",
+            "cloud /klaʊd/ n. 云",
+            "town /taʊn/ n. 城镇",
+            "south /saʊθ/ n. 南方",
+            "pound /paʊnd/ n. 英镑",
+            "drought /draʊt/ n. 干旱"
+        ],
+        "markedLetters": [
+            "ou",
+            "ou",
+            "ow",
+            "ou",
+            "ou",
+            "ou"
+        ],
+        "audioFilename": "aʊ_sound.mp3"
+    },
+    {
+        "phonetic": "/əʊ/",
+        "examples": [
+            "goat /gəʊt/ n. 山羊",
+            "arrow /'ærəʊ/ n. 箭",
+            "know /nəʊ/ vt. 知道",
+            "bowl /bəʊl/ n. 碗",
+            "pose /pəʊz/ n. 姿势",
+            "mode /məʊd/ n. 模式"
+        ],
+        "markedLetters": [
+            "o",
+            "ow",
+            "o",
+            "o",
+            "o",
+            "o"
+        ],
+        "audioFilename": "əʊ_sound.mp3"
+    },
+    {
+        "phonetic": "/ɪə/",
+        "examples": [
+            "beer /bɪə/ n. 啤酒",
+            "deer /dɪə/ n. 鹿",
+            "mere /mɪə/ n. 小湖",
+            "shear /ʃɪə/ vi. 剪",
+            "smear /smɪə/ n.诽谤",
+            "tear /tɪə/ n. 眼泪"
+        ],
+        "markedLetters": [
+            "ee",
+            "ee",
+            "ere",
+            "ea",
+            "ea",
+            "ea"
+        ],
+        "audioFilename": "ɪə_sound.mp3"
+    },
+    {
+        "phonetic": "/eə/",
+        "examples": [
+            "bear /beə/ n. 熊",
+            "wear /weə/ n. 衣物",
+            "square /skweə/ adj. 平方的",
+            "fare /feə/ n. 票价",
+            "spare /speə/ vt. 节约",
+            "unfair /ʌn'feə/ adj. 不公平的"
+        ],
+        "markedLetters": [
+            "ea",
+            "ea",
+            "are",
+            "are",
+            "are",
+            "air"
+        ],
+        "audioFilename": "eə_sound.mp3"
+    },
+    {
+        "phonetic": "/ʊə/",
+        "examples": [
+            "poor /pʊə/ adj. 贫穷的",
+            "tour /tʊə/ n. 旅游",
+            "cruel /krʊəl/ adj. 残酷的"
+        ],
+        "markedLetters": [
+            "oo",
+            "ou",
+            "ue"
+        ],
+        "audioFilename": "ʊə_sound.mp3"
+    },
+    {
+        "phonetic": "/p/",
+        "examples": [
+            "pay /peɪ/ vt. 支付",
+            "put /pʊt/ vt. 放",
+            "sip /sɪp/ n. 抿",
+            "cup /kʌp/ n. 杯子",
+            "open /'əʊpn/ v.打开",
+            "panda /'pændə/ n. 熊猫"
+        ],
+        "markedLetters": [
+            "p",
+            "p",
+            "p",
+            "p",
+            "p",
+            "p"
+        ],
+        "audioFilename": "p_sound.mp3"
+    },
+    {
+        "phonetic": "/t/",
+        "examples": [
+            "talk /tɔːk/ vt. 讲",
+            "taxi /tæksi/ n. 出租车",
+            "tell /tel/ vt. 告诉",
+            "kitty /'kɪtɪ/ n. 小猫",
+            "night /naɪt/ n. 夜晚",
+            "ticket /'tɪkɪt/ n. 票",
+            "better /'betə/ adv. 更好的"
+        ],
+        "markedLetters": [
+            "t",
+            "t",
+            "t",
+            "t",
+            "t",
+            "t",
+            "t"
+        ],
+        "audioFilename": "t_sound.mp3"
+    },
+    {
+        "phonetic": "/k/",
+        "examples": [
+            "key /kiː/ n.钥匙",
+            "cold /kəʊld/ adj. 寒冷的",
+            "card /kɑːd/ n. 卡片",
+            "desk /desk/ n. 办公桌",
+            "cup /kʌp/ n. 杯子",
+            "cat /kæt/ n. 猫"
+        ],
+        "markedLetters": [
+            "k",
+            "c",
+            "c",
+            "k",
+            "c",
+            "c"
+        ],
+        "audioFilename": "k_sound.mp3"
+    },
+    {
+        "phonetic": "/b/",
+        "examples": [
+            "bread /bred/ n. 面包",
+            "club /klʌb/ n. 俱乐部",
+            "tube /tjuːb/ n. 管",
+            "lab /læb/ n. 实验室",
+            "rabbit /'ræbɪt/ n. 兔子",
+            "garbage /'gɑːbɪdʒ/ n. 垃圾"
+        ],
+        "markedLetters": [
+            "b",
+            "b",
+            "b",
+            "b",
+            "b",
+            "b"
+        ],
+        "audioFilename": "b_sound.mp3"
+    },
+    {
+        "phonetic": "/d/",
+        "examples": [
+            "duck /dʌk/ n. 鸭子",
+            "deep /diːp/ adj. 深的",
+            "dog /dɒg/ n. 狗",
+            "card /kɑːd/ n. 卡片",
+            "bed /bed/ n. 床",
+            "murder /'mɜːdə/ vt. 谋杀"
+        ],
+        "markedLetters": [
+            "d",
+            "d",
+            "d",
+            "d",
+            "d",
+            "d"
+        ],
+        "audioFilename": "d_sound.mp3"
+    },
+    {
+        "phonetic": "/g/",
+        "examples": [
+            "eagle /'iːg(ə)l/ n. 鹰",
+            "egg /eg/ n. 蛋",
+            "lag /læg/ n. 落后",
+            "dig /dɪg/ vt. 挖",
+            "glass /glɑːs/ n. 玻璃",
+            "gate /geɪt/ n. 大门"
+        ],
+        "markedLetters": [
+            "g",
+            "g",
+            "g",
+            "g",
+            "g",
+            "g"
+        ],
+        "audioFilename": "g_sound.mp3"
+    },
+    {
+        "phonetic": "/f/",
+        "examples": [
+            "fish /fɪʃ/ n. 鱼",
+            "finger /'fɪŋgə/ n. 手指",
+            "face /feɪs/ n. 脸",
+            "floor /flɔː/ n. 地板",
+            "forget /fə'get/ vt. 忘记",
+            "frog /frɒg/ n. 青蛙"
+        ],
+        "markedLetters": [
+            "f",
+            "f",
+            "f",
+            "f",
+            "f",
+            "f"
+        ],
+        "audioFilename": "f_sound.mp3"
+    },
+    {
+        "phonetic": "/s/",
+        "examples": [
+            "sit /sɪt/ vi. 坐",
+            "say /seɪ/ vt. 讲",
+            "sky /skaɪ/ n. 天空",
+            "face /feɪs/ n. 脸",
+            "bus /bʌs/ n. 公共汽车",
+            "nice /naɪs/ adj. 精密的"
+        ],
+        "markedLetters": [
+            "s",
+            "s",
+            "s",
+            "s",
+            "s",
+            "s"
+        ],
+        "audioFilename": "s_sound.mp3"
+    },
+    {
+        "phonetic": "/∫/",
+        "examples": [
+            "ship /ʃɪp/ n. 船",
+            "sheep /ʃiːp/ n. 羊",
+            "fish /fɪʃ/ n. 鱼",
+            "clash /klæʃ/ vi. 冲突",
+            "shirt /ʃɜːt/ n. 衬衫",
+            "wash /wɒʃ/ vt. 洗涤"
+        ],
+        "markedLetters": [
+            "sh",
+            "sh",
+            "sh",
+            "sh",
+            "sh",
+            "sh"
+        ],
+        "audioFilename": "sh_sound.mp3"
+    },
+    {
+        "phonetic": "/θ/",
+        "examples": [
+            "south /saʊθ/ n. 南方",
+            "path /pɑːθ/ n. 道路",
+            "mouth /maʊθ/ n. 口",
+            "math /mæθ/ n. 数学",
+            "think /θɪŋk/ vt. 想",
+            "path /pɑːθ/ n. 道路"
+        ],
+        "markedLetters": [
+            "th",
+            "th",
+            "th",
+            "th",
+            "th",
+            "th"
+        ],
+        "audioFilename": "th_sound.mp3"
+    },
+    {
+        "phonetic": "/h/",
+        "examples": [
+            "home /həʊm/ n. 家",
+            "hello /həˈləʊ/ int. 喂",
+            "hut /hʌt/ n. 小屋",
+            "hand /hænd/ n. 手",
+            "hide /haɪd/ vt. 隐藏",
+            "happy /'hæpɪ/ adj. 幸福的"
+        ],
+        "markedLetters": [
+            "h",
+            "h",
+            "h",
+            "h",
+            "h",
+            "h"
+        ],
+        "audioFilename": "h_sound.mp3"
+    },
+    {
+        "phonetic": "/v/",
+        "examples": [
+            "very /'verɪ/ adv. 非常",
+            "dove /dʌv/ n. 鸽子",
+            "ever /'evə/ adv.曾经",
+            "leave /liːv/ vt. 离开",
+            "invite /ɪn'vaɪt/ vt. 邀请",
+            "heavy /'hevɪ/ adj. 沉重的"
+        ],
+        "markedLetters": [
+            "v",
+            "v",
+            "v",
+            "v",
+            "v",
+            "v"
+        ],
+        "audioFilename": "v_sound.mp3"
+    },
+    {
+        "phonetic": "/z/",
+        "examples": [
+            "zebra /'zebrə/ n. 斑马",
+            "zoo /zuː/ n. 动物园",
+            "zero /'zɪərəʊ/ num. 零",
+            "seize /siːz/ vt. 抓住",
+            "size /saɪz/ n. 大小",
+            "eraser /ɪ'reɪzə/ n. 橡皮"
+        ],
+        "markedLetters": [
+            "z",
+            "z",
+            "z",
+            "z",
+            "z",
+            "z"
+        ],
+        "audioFilename": "z_sound.mp3"
+    },
+    {
+        "phonetic": "/ʒ/",
+        "examples": [
+            "visual /'vɪʒjʊəl/ adj. 视觉的",
+            "version /'vɜːʃ(ə)n/ n. 版本",
+            "vision /'vɪʒ(ə)n/ n. 视力",
+            "television /ˈtelɪvɪʒn/ n. 电视",
+            "decision /dɪ'sɪʒ(ə)n/ n. 决定",
+            "leisure /'leʒə/ n. 闲暇"
+        ],
+        "markedLetters": [
+            "si",
+            "s",
+            "si",
+            "si",
+            "si",
+            "s"
+        ],
+        "audioFilename": "zh_sound.mp3"
+    },
+    {
+        "phonetic": "/ð/",
+        "examples": [
+            "they /ðeɪ/ pron. 他们",
+            "those /ðəʊz/ adj. 那些的",
+            "other /'ʌðə/ adj. 其他的",
+            "another /ə'nʌðə/ prep. 另一个",
+            "breathe /briːð/ vi. 呼吸",
+            "teethe /tiːð/ vi. 长牙齿"
+        ],
+        "markedLetters": [
+            "th",
+            "th",
+            "th",
+            "th",
+            "th",
+            "th"
+        ],
+        "audioFilename": "dh_sound.mp3"
+    },
+    {
+        "phonetic": "/r/",
+        "examples": [
+            "rain /reɪn/ n. 雨",
+            "read /ri:d/ vt. 阅读",
+            "red /red/ n. 红色",
+            "real /riːl/ adv. 真正地",
+            "grass /grɑːs/ n. 草",
+            "write /raɪt/ vt. 写"
+        ],
+        "markedLetters": [
+            "r",
+            "r",
+            "r",
+            "r",
+            "r",
+            "r"
+        ],
+        "audioFilename": "r_sound.mp3"
+    },
+    {
+        "phonetic": "/t∫/",
+        "examples": [
+            "chick /tʃɪk/ n. 小鸡",
+            "rich /rɪtʃ/ adj. 富有的",
+            "coach /kəʊtʃ/ n. 教练",
+            "match /mætʃ/ n. 比赛",
+            "cheer /tʃɪə/ vt. 欢呼",
+            "Which /wɪtʃ/ pron. 哪/那一个"
+        ],
+        "markedLetters": [
+            "ch",
+            "ch",
+            "ch",
+            "ch",
+            "ch",
+            "ch"
+        ],
+        "audioFilename": "ch_sound.mp3"
+    },
+    {
+        "phonetic": "/tr/",
+        "examples": [
+            "ostrich /'ɒstrɪtʃ/ n. 鸵鸟",
+            "trade /treɪd/ n. 贸易",
+            "trill /trɪl/ n. 颤音",
+            "metric /'metrɪk/ adj. 公制的",
+            "tree /triː/ n. 树",
+            "track /træk/ n. 轨道"
+        ],
+        "markedLetters": [
+            "str",
+            "tr",
+            "tr",
+            "tr",
+            "tr",
+            "tr"
+        ],
+        "audioFilename": "tr_sound.mp3"
+    },
+    {
+        "phonetic": "/ts/",
+        "examples": [
+            "cats /kæts/ n. (复数)猫",
+            "boats /bəʊts/ n. (复数)小船",
+            "meets /miːts/ vt.(第三人称)遇见",
+            "gifts /gɪfts/ n. (复数)礼物",
+            "limits /'lɪmɪts/ v. (第三人称)限制",
+            "eats /iːts/ vt. (第三人称)吃"
+        ],
+        "markedLetters": [
+            "ts",
+            "ts",
+            "ts",
+            "ts",
+            "ts",
+            "ts"
+        ],
+        "audioFilename": "ts_sound.mp3"
+    },
+    {
+        "phonetic": "/dʒ/",
+        "examples": [
+            "jar /dʒɑː/ n. 罐",
+            "jam /dʒæm/ n. 果酱",
+            "July /dʒʊˈlaɪ/ n. 七月",
+            "angel /'eɪndʒ(ə)l/ n. 天使",
+            "cage /keɪdʒ/ n. 笼",
+            "bridge /brɪdʒ/ n. 桥"
+        ],
+        "markedLetters": [
+            "j",
+            "j",
+            "j",
+            "g",
+            "g",
+            "dg"
+        ],
+        "audioFilename": "dj_sound.mp3"
+    },
+    {
+        "phonetic": "/dr/",
+        "examples": [
+            "drink /drɪŋk/ vt. 喝",
+            "dress /dres/ n. 连衣裙",
+            "dream /driːm/ n. 梦想",
+            "draw /drɔː/ vt. 画",
+            "drip /drɪp/ vi. 滴下",
+            "drug /drʌg/ n. 毒品"
+        ],
+        "markedLetters": [
+            "dr",
+            "dr",
+            "dr",
+            "dr",
+            "dr",
+            "dr"
+        ],
+        "audioFilename": "dr_sound.mp3"
+    },
+    {
+        "phonetic": "/dz/",
+        "examples": [
+            "beds /bedz/ n. 床上用品(复数)",
+            "cards /kɑ:dz/ n.卡片(复数)",
+            "rides /raɪdz/ vi. 骑马(第三人称)",
+            "adds /ædz/ vt. 增加(第三人称)",
+            "seconds /'sek(ə)ndz/ n. 秒(复数)",
+            "friends /frendz/ n. 朋友(复数)"
+        ],
+        "markedLetters": [
+            "ds",
+            "ds",
+            "ds",
+            "ds",
+            "ds",
+            "ds"
+        ],
+        "audioFilename": "dz_sound.mp3"
+    },
+    {
+        "phonetic": "/m/",
+        "examples": [
+            "mud /mʌd/ n. 泥",
+            "move /muːv/ vi. 移动",
+            "swim /swɪm/ vi. 游泳",
+            "smart /smɑːt/ adj. 聪明的",
+            "animal /'ænɪməl/ n. 动物",
+            "sample /'sɑːmpl/ n. 样品"
+        ],
+        "markedLetters": [
+            "m",
+            "m",
+            "m",
+            "m",
+            "m",
+            "m"
+        ],
+        "audioFilename": "m_sound.mp3"
+    },
+    {
+        "phonetic": "/n/",
+        "examples": [
+            "no /nəʊ/ adv. 不",
+            "winner /'wɪnə/ n. 胜利者",
+            "ant /ænt/ n. 蚂蚁",
+            "brain /breɪn/ n. 头脑",
+            "find /faɪnd/ vt. 查找",
+            "hunt /hʌnt/ vt. 打猎"
+        ],
+        "markedLetters": [
+            "n",
+            "n",
+            "n",
+            "n",
+            "n",
+            "n"
+        ],
+        "audioFilename": "n_sound.mp3"
+    },
+    {
+        "phonetic": "/ŋ/",
+        "examples": [
+            "ink /ɪŋk/ n. 墨水",
+            "bank /bæŋk/ n. 银行",
+            "bang /bæŋ/ n. 刘海",
+            "sing /sɪŋ/ vi. 唱歌",
+            "spring /sprɪŋ/ n. 春天",
+            "pink /pɪŋk/ n. 粉红色"
+        ],
+        "markedLetters": [
+            "nk",
+            "nk",
+            "ng",
+            "ng",
+            "ng",
+            "nk"
+        ],
+        "audioFilename": "ng_sound.mp3"
+    },
+    {
+        "phonetic": "/l/",
+        "examples": [
+            "line /laɪn/ n. 路线",
+            "like /laɪk/ vt. 喜欢",
+            "alive /ə'laɪv/ adj. 活着的",
+            "meal /miːl/ n. 一餐",
+            "pool /puːl/ n. 联营",
+            "all /ɔːl/ adj. 全部的"
+        ],
+        "markedLetters": [
+            "l",
+            "l",
+            "l",
+            "l",
+            "l",
+            "l"
+        ],
+        "audioFilename": "l_sound.mp3"
+    },
+    {
+        "phonetic": "/j/",
+        "examples": [
+            "yak /jæk/ n. 牦牛",
+            "youth /juːθ/ n. 青年",
+            "yell /jel/ vi. 大叫",
+            "billion /'bɪljən/ n. 十亿",
+            "million /'mɪljən/ num. 百万",
+            "unit /'juːnɪt/ n. 单位"
+        ],
+        "markedLetters": [
+            "y",
+            "y",
+            "y",
+            "ll",
+            "ll",
+            "u"
+        ],
+        "audioFilename": "j_sound.mp3"
+    },
+    {
+        "phonetic": "/w/",
+        "examples": [
+            "swan /swɒn/ n. 天鹅",
+            "with /wɪð/ prep. 用",
+            "what /wɒt/ pron. 什么",
+            "white /waɪt/ adj. 白色的",
+            "work /wɜːk/ n. 工作",
+            "wood /wʊd/ n. 木材"
+        ],
+        "markedLetters": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+        ],
+        "audioFilename": "w_sound.mp3"
+    }
 ]
