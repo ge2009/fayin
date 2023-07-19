@@ -1,3 +1,4 @@
+
 import SwiftUI
 import AVFoundation
 
@@ -8,59 +9,97 @@ struct PhoneticCard: Decodable {
     var audioFilename: String
 }
 
+enum SortOrder {
+    case ascending, descending, random
+}
+
 struct ContentView: View {
     @State var cards: [PhoneticCard] = loadCards(from: "Phonetic")
     @State private var removedCards = [PhoneticCard]()
     @State private var cardOffset: CGSize = .zero
+    @State private var sortOrder: SortOrder = .ascending
 
     var body: some View {
-        if cards.isEmpty {
-            VStack {
-                Text("恭喜您，成功完成了这次学习！！！")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .padding()
+        VStack {
+            HStack {
                 Button(action: {
-                    self.cards = self.removedCards
-                    self.removedCards.removeAll()
+                    self.sortOrder = .ascending
+                    self.sortCards()
                 }) {
-                    Text("再来一次")
-                        .font(.title2)
+                    Text("升序")
+                }
+                Button(action: {
+                    self.sortOrder = .descending
+                    self.sortCards()
+                }) {
+                    Text("降序")
+                }
+                Button(action: {
+                    self.sortOrder = .random
+                    self.sortCards()
+                }) {
+                    Text("随机")
+                }
+            }
+            if cards.isEmpty {
+                VStack {
+                    Text("恭喜您，成功完成了这次学习！！！")
+                        .font(.title)
+                        .fontWeight(.bold)
                         .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
+                    Button(action: {
+                        self.cards = self.removedCards
+                        self.removedCards.removeAll()
+                    }) {
+                        Text("再来一次")
+                            .font(.title2)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
                 }
-            }
-        } else {
-            ZStack {
-                ForEach(cards.indices, id: \.self) { index in
-                    CardView(card: cards[index])
-                        .offset(index == cards.count - 1 ? cardOffset : .zero)
-                        .gesture(
-                            DragGesture()
-                                .onChanged { gesture in
-                                    if index == cards.count - 1 {
-                                        self.cardOffset = gesture.translation
-                                    }
-                                }
-                                .onEnded { _ in
-                                    withAnimation {
-                                        if self.cardOffset.height < -200 && !cards.isEmpty {
-                                            let removedCard = cards.removeLast()
-                                            removedCards.append(removedCard)
-                                        } else if self.cardOffset.height > 200 && !removedCards.isEmpty {
-                                            let previousCard = removedCards.removeLast()
-                                            cards.append(previousCard)
+            } else {
+                ZStack {
+                    ForEach(cards.indices, id: \.self) { index in
+                        CardView(card: cards[index])
+                            .offset(index == cards.count - 1 ? cardOffset : .zero)
+                            .gesture(
+                                DragGesture()
+                                    .onChanged { gesture in
+                                        if index == cards.count - 1 {
+                                            self.cardOffset = gesture.translation
                                         }
-                                        self.cardOffset = .zero
                                     }
-                                }
-                        )
-                        .animation(.easeOut)
+                                    .onEnded { _ in
+                                        withAnimation {
+                                            if self.cardOffset.height < -200 && !cards.isEmpty {
+                                                let removedCard = cards.removeLast()
+                                                removedCards.append(removedCard)
+                                            } else if self.cardOffset.height > 200 && !removedCards.isEmpty {
+                                                let previousCard = removedCards.removeLast()
+                                                cards.append(previousCard)
+                                            }
+                                            self.cardOffset = .zero
+                                        }
+                                    }
+                            )
+                            .animation(.easeOut)
+                    }
                 }
+                .frame(height: 300)
             }
-            .frame(height: 300)
+        }
+    }
+
+    func sortCards() {
+        switch sortOrder {
+        case .ascending:
+            cards.sort { $0.phonetic < $1.phonetic }
+        case .descending:
+            cards.sort { $0.phonetic > $1.phonetic }
+        case .random:
+            cards.shuffle()
         }
     }
 }
@@ -114,35 +153,34 @@ struct CardView: View {
     }
 
     func highlightedText(for text: String, highlightedChar: String) -> some View {
-        let components: [String] = text.components(separatedBy: highlightedChar)
-        return components.enumerated().map { index, component in
-            index < components.count - 1 ?
-                Text(component).foregroundColor(.black) + Text(highlightedChar).foregroundColor(.red) :
-                Text(component).foregroundColor(.black)
-        }.reduce(Text(""), +)
-    }
+          let components: [String] = text.components(separatedBy: highlightedChar)
+          return components.enumerated().map { index, component in
+              index < components.count - 1 ?
+                  Text(component).foregroundColor(.black) + Text(highlightedChar).foregroundColor(.red) :
+                  Text(component).foregroundColor(.black)
+          }.reduce(Text(""), +)
+      }
 
-    func playSound(filename: String) {
-        if let path = Bundle.main.path(forResource: filename, ofType: nil) {
-            let url = URL(fileURLWithPath: path)
-            do {
-                audioPlayer = try AVAudioPlayer(contentsOf: url)
-                audioPlayer?.play()
-            } catch {
-                // Couldn't load file :(
-            }
-        }
-    }
-    
-    
-}
+      func playSound(filename: String) {
+          if let path = Bundle.main.path(forResource: filename, ofType: nil) {
+              let url = URL(fileURLWithPath: path)
+              do {
+                  audioPlayer = try AVAudioPlayer(contentsOf: url)
+                  audioPlayer?.play()
+              } catch {
+                  // Couldn't load file :(
+              }
+          }
+      }
+      
+      
+  }
 
-func loadCards(from filename: String) -> [PhoneticCard] {
-    if let url = Bundle.main.url(forResource:filename, withExtension: "json"),
-       let data = try? Data(contentsOf: url),
-       let cards = try? JSONDecoder().decode([PhoneticCard].self, from: data) {
-        return cards
-    }
-    return []
-}
-
+  func loadCards(from filename: String) -> [PhoneticCard] {
+      if let url = Bundle.main.url(forResource:filename, withExtension: "json"),
+         let data = try? Data(contentsOf: url),
+         let cards = try? JSONDecoder().decode([PhoneticCard].self, from: data) {
+          return cards
+      }
+      return []
+  }
